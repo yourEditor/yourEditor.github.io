@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMICK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+<style>
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section{
+    padding: 0px;
+  }
+
+  .backImg{
+    background: url("question.jpg");
+  }
+  .rapid{
+    animation-timing-function: ease-out;
+    animation-name: imgChange;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+  }
+  .background{
+    background-image: url("animeEyes.png");
+    background-position: center;
+  }
+  @media (max-width:790px) {
+    .leftColumn{
+      display: none;
+    }
+  }
+  @media(max-width:900px){
+    .topFive{
+      font-size: 10px;
+    }
+  }
+
+  @keyframes imgChange {
+          0% {content:url("mangaPictures/necromancer.jpg")}  2.5% {content:url("mangaPictures/mystMyght.jpg")}    5% {content:url("mangaPictures/executioner.jpg")}  7.5% {content:url("mangaPictures/theLast.jpg")}  8.5% {content:url("mangaPictures/theKnight.jpg")}
+         10% {content:url("mangaPictures/conqueringThe.jpg")} 12.5% {content:url("mangaPictures/absolute.jpg")} 15% {content:url("mangaPictures/theGreat.jpg")} 17.5% {content:url("mangaPictures/reincarnated.jpg")} 18.5% {content:url("mangaPictures/timeLimited.jpg")}
+         20% {content:url("mangaPictures/theLazyLord.jpg")} 22.5% {content:url("mangaPictures/logIntoThe.jpg")} 25% {content:url("mangaPictures/theWorldAfter.jpg")} 27.5% {content:url("mangaPictures/theArtOf.jpg")} 28.5% {content:url("mangaPictures/myBlasted.webp")}
+         30% {content:url("mangaPictures/the100th.jpg")} 32.5% {content:url("mangaPictures/dandadan.jpg")} 35% {content:url("mangaPictures/theNovelsExtra.jpg")} 37.5% {content:url("mangaPictures/secondLife.jpg")} 38.5% {content:url("mangaPictures/theIndomitable.jpg")}
+         40% {content:url("mangaPictures/sss-class.jpg")} 42.5% {content:url("mangaPictures/theRegressed.jpg")} 45% {content:url("mangaPictures/mercenary.jpg")} 47.5% {content:url("mangaPictures/theLegendOf.jpg")} 48.5% {content:url("mangaPictures/kaijuNo8.jpg")} 
+         50% {content:url("mangaPictures/theInfinite.jpg")} 52.5% {content:url("mangaPictures/theReturnOf.jpg")} 55% {content:url("mangaPictures/JujutsuKaisen.jpg")} 57.5% {content:url("mangaPictures/theMartialGo.jpg")} 58.5% {content:url("mangaPictures/returnedBy.jpg")}
+         60% {content:url("mangaPictures/theStellar.webp")} 62.5% {content:url("mangaPictures/returnOfThe.jpg")} 65% {content:url("mangaPictures/nanoMachine.jpg")} 67.5% {content:url("mangaPictures/iKillThe.jpg")} 68.5% {content:url("mangaPictures/regressingAs.jpg")} 
+         70% {content:url("mangaPictures/theAcademys.jpg")} 72.5% {content:url("mangaPictures/i'mTheMax.jpg")} 75% {content:url("mangaPictures/afterTen.jpg")} 77.5% {content:url("mangaPictures/theSwordmaster.jpg")} 78.5% {content:url("mangaPictures/childhoodFriends.jpg")}
+         80% {content:url("mangaPictures/soloLeveling2.jpg")} 82.5% {content:url("mangaPictures/soloLeveling.jpg")} 85% {content:url("mangaPictures/theExtra's.jpg")} 87.5% {content:url("mangaPictures/pickMeUp.jpg")} 88.5% {content:url("mangaPictures/magicAcademy.jpg")}
+         90% {content:url("mangaPictures/omniscient.jpg")} 92.5% {content:url("mangaPictures/theGreatest.jpg")} 95% {content:url("mangaPictures/theBeginning.webp")} 97.5% {content:url("mangaPictures/theRebornYou.webp")} 98.5% {content:url("mangaPictures/revenge.jpg")}
+  }
+  .star{
+    animation-timing-function: ease-out;
+    animation-name: star;
+    animation-duration: 0.3s;
+    animation-iteration-count: 10;
+  }
+  @keyframes star {
+    0%   {background-color: red;}
+    20%   {background-color: yellow;}
+    40%   {background-color: green;}  
+    60%   {background-color: blue;}
+    80%   {background-color: red;}
+    100%   {background-color: rgb(255, 25, 247);}
+  }
+  .starText{
+    animation-timing-function: ease-out;
+    animation-name: starText;
+    animation-duration: 0.3s;
+    animation-iteration-count: 10;
+  }
+  @keyframes starText {
+    0%   {color: red;}
+    20%  {color: yellow;}
+    40%  {color: green;}  
+    60%  {color: blue;}
+    80%  {color: red;}
+    100% {color: rgb(255, 25, 247);}
+  }
+
+</style>
+</head>
+<body>
+    <section class="hero has-background-link-80" style="margin-bottom: 20px; margin-right: -20px;">
+        <div class="container ">
+          <h1 class="title center">COMICK</h1>
+        </div>
+      </section>
+
+      <section class="hero-body is-fullheight">
+        <div class="section">
+          <div class="columns" style="height: 950px; margin-top: -20px;">
+
+            <div class="column leftColumn has-background-text-15">
+              
+            </div>
+
+
+
+            <div class="column is-three-fifths">
+               <div class="container" style="height: 650px;">
+                <div class="container is-max-tablet" style="margin-top: 80px;">
+                  <div class="container center">
+                    <div class="box isStar" style="margin-bottom: 50px;">
+                      <h1 id="magTitle" class="title">Random Manda</h1>
+                      <div class="center">
+                        <a href="" id="imgPath"><img id="radImg" class="image radImg" src="webPicture/question.jpg" style="height: 300px;" title=""></a>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="isStarText title center is-size-5 has-text-link-80">Press this button to get a random manga</div>
+                  <div class="center">
+                    <button id="radButton" class="button is-size-4 has-background-link-80">RANDOMIZER</button>
+                  </div>
+                </div>
+               </div>
+            </div>
+<!-- ---------------------------------------------------------------------------------- -->
+          
+          <div class="column rightColumn has-background-text-15">
+
+            <div class="notification topFive has-background-link-80">
+              <div class="title center"> TOP 5 </div>
+            </div>
+
+              <div class="container">
+                
+              <!-- <section class="section has-background-text-20"> -->
+                
+                <article class="media">
+                  <div class="container">
+                    <figure class="media-left center">
+                     <h1 class="title has-text-link-80" style="margin-right: 30px;">1</h1> <img class="rank1" src="" alt="" style="height: 100px; margin-right: 25px;">
+                    </figure>
+                    <div class="content">
+                      <div class="title is-size-7 has-text-link-80 center ranktitle1" style="margin: 10px;">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article class="media">
+                  <div class="container">
+                    <figure class="media-left center">
+                     <h1 class="title has-text-link-80" style="margin-right: 30px;">2</h1> <img class="rank2" src="" alt="" style="height: 100px; margin-right: 25px;">
+                    </figure>
+                    <div class="content">
+                      <div class="title is-size-7 has-text-link-80 center ranktitle2" style="margin: 10px;">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article class="media">
+                  <div class="container">
+                    <figure class="media-left center">
+                     <h1 class="title has-text-link-80" style="margin-right: 30px;">3</h1> <img class="rank3" src="" alt="" style="height: 100px; margin-right: 25px;">
+                    </figure>
+                    <div class="content">
+                      <div class="title is-size-7 has-text-link-80 center ranktitle3" style="margin: 10px;">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article class="media">
+                  <div class="container">
+                    <figure class="media-left center">
+                     <h1 class="title has-text-link-80" style="margin-right: 30px;">4</h1> <img class="rank4" src="" alt="" style="height: 100px; margin-right: 25px;">
+                    </figure>
+                    <div class="content">
+                      <div class="title is-size-7 has-text-link-80 center ranktitle4" style="margin: 10px;">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article class="media">
+                  <div class="container">
+                    <figure class="media-left center">
+                     <h1 class="title has-text-link-80" style="margin-right: 30px;">5</h1> <img class="rank5" src="" alt="" style="height: 100px; margin-right: 25px;">
+                    </figure>
+                    <div class="content">
+                      <div class="title is-size-7 has-text-link-80 center ranktitle5" style="margin: 10px;">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+              </section>
+              </div>
+
+            </div>
+
+         </div> 
+        </div>
+      </section>
+      <script src="index.js"></script>
+</body>
+</html>
