@@ -1,0 +1,198 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #006d77;
+    color: #f0ebd8;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.title h1{
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    display: flex;
+    background-color:#3e5c76;
+}
+
+.left-column{
+    background-color: #343a40;
+    width: 25%;
+}
+
+.mid-column{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: #006d77;
+    width: 50%;
+    height: 850px;
+}
+.mag-container h1{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+}
+.mag-container{
+    margin: 0px;
+    padding: 0px;
+    color: #f0ebd8;
+    background-color: #006d77;
+    height: 350px;
+    /* width: fit-content; */
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: -80px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #006d77;
+}
+
+
+.mag-container img{
+    width: 200px;
+    height: 300px;
+}
+.randomizer{
+    background-color: #006d77;
+    color:  #f0ebd8;
+    height: 4rem;
+    width: 15rem;
+    border-radius: 15px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: sticky;
+}
+
+.right-column{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    background-color: #343a40;
+    width: 25%;
+    width: 25rem;
+}
+.title2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23rem;
+    background-color: #006d77;
+    color: #f0ebd8;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mag{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mag p{
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mag h1{
+    margin: 10px;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.mag-list{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.mag-list img{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 15.8px;
+    width: 4.5rem;
+}
+
+@media(max-width:1000px){
+    .body{
+        display:grid;
+    }
+    .mid-column{
+        width: 100%;
+    }
+    .mag-list{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .right-column{
+        width: 100%;
+        
+    }
+}
+/* @media(max-width:1000px) and (min-width:901px) {
+    .right-column{
+        width: 30%;
+
+    }
+    .mag-list{
+        width: 15%;
+    }
+    .mag{
+        width: 15%;
+    }
+    .hr{
+        width: 15%;
+    }
+    .title2{
+        width: 90%;
+    }
+    .mag img{
+        width: 50px;
+    }
+    .mag h1{
+        width: 5%;
+    }
+    .mag p{
+        width: 10%;
+    }
+} */
+
+.rapid {
+    animation-timing-function:linear;
+    animation-name: rapid;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+}
+
+@keyframes rapid {
+         0% {content:url("mangaPictures/necromancer.jpg")}  2.5% {content:url("mangaPictures/mystMyght.jpg")}    5% {content:url("mangaPictures/executioner.jpg")}  7.5% {content:url("mangaPictures/theLast.jpg")}  8.5% {content:url("mangaPictures/theKnight.jpg")}
+         10% {content:url("mangaPictures/conqueringThe.jpg")} 12.5% {content:url("mangaPictures/absolute.jpg")} 15% {content:url("mangaPictures/theGreat.jpg")} 17.5% {content:url("mangaPictures/reincarnated.jpg")} 18.5% {content:url("mangaPictures/timeLimited.jpg")}
+         20% {content:url("mangaPictures/theLazyLord.jpg")} 22.5% {content:url("mangaPictures/logIntoThe.jpg")} 25% {content:url("mangaPictures/theWorldAfter.jpg")} 27.5% {content:url("mangaPictures/theArtOf.jpg")} 28.5% {content:url("mangaPictures/myBlasted.webp")}
+         30% {content:url("mangaPictures/the100th.jpg")} 32.5% {content:url("mangaPictures/dandadan.jpg")} 35% {content:url("mangaPictures/theNovelsExtra.jpg")} 37.5% {content:url("mangaPictures/secondLife.jpg")} 38.5% {content:url("mangaPictures/theIndomitable.jpg")}
+         40% {content:url("mangaPictures/sss-class.jpg")} 42.5% {content:url("mangaPictures/theRegressed.jpg")} 45% {content:url("mangaPictures/mercenary.jpg")} 47.5% {content:url("mangaPictures/theLegendOf.jpg")} 48.5% {content:url("mangaPictures/kaijuNo8.jpg")} 
+         50% {content:url("mangaPictures/theInfinite.jpg")} 52.5% {content:url("mangaPictures/theReturnOf.jpg")} 55% {content:url("mangaPictures/JujutsuKaisen.jpg")} 57.5% {content:url("mangaPictures/theMartialGo.jpg")} 58.5% {content:url("mangaPictures/returnedBy.jpg")}
+         60% {content:url("mangaPictures/theStellar.webp")} 62.5% {content:url("mangaPictures/returnOfThe.jpg")} 65% {content:url("mangaPictures/nanoMachine.jpg")} 67.5% {content:url("mangaPictures/iKillThe.jpg")} 68.5% {content:url("mangaPictures/regressingAs.jpg")} 
+         70% {content:url("mangaPictures/theAcademys.jpg")} 72.5% {content:url("mangaPictures/i'mTheMax.jpg")} 75% {content:url("mangaPictures/afterTen.jpg")} 77.5% {content:url("mangaPictures/theSwordmaster.jpg")} 78.5% {content:url("mangaPictures/childhoodFriends.jpg")}
+         80% {content:url("mangaPictures/soloLeveling2.jpg")} 82.5% {content:url("mangaPictures/soloLeveling.jpg")} 85% {content:url("mangaPictures/theExtra's.jpg")} 87.5% {content:url("mangaPictures/pickMeUp.jpg")} 88.5% {content:url("mangaPictures/magicAcademy.jpg")}
+}
